@@ -63,7 +63,7 @@
     var material1 = new THREE.MeshPhongMaterial({color:0xb3e5fc, emissive:0xe6ffff, emissiveIntensity:1 });
     var material2 = new THREE.MeshPhongMaterial({color:0xb3e5fc, emissive:0x6c7678, reflectivity:0, specular:0x6c7678,shininess:0 });
     var material3 = new THREE.MeshPhongMaterial({color:0x1a2224, reflectivity:1});
-    var dodec_material = new THREE.MeshPhongMaterial( { color:0x414a4c, emissive:0x414a4c, emissiveIntensity:1, wireframe: true} );
+    var dodec_material = new THREE.MeshBasicMaterial( { color:0x414a4c, emissive:0x414a4c, emissiveIntensity:1, wireframe: true} );
    
     // Star
     var geometry = new THREE.SphereGeometry(3.5, 40, 40);
